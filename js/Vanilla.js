@@ -1,9 +1,9 @@
 new fullpage('#fullpage', {
 	//Navegación
 	menu: '#menu',
-	lockAnchors: false,
-	anchors:['firstPage', 'secondPage'],
-	navigation: false,
+	lockAnchors: true,
+	anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
+	navigation: true,
 	navigationPosition: 'right',
 	navigationTooltips: ['firstSlide', 'secondSlide'],
 	showActiveTooltip: false,
@@ -46,7 +46,7 @@ new fullpage('#fullpage', {
 	//Diseno
 	controlArrows: true,
 	verticalCentered: true,
-	sectionsColor : ['#ccc', '#fff'],
+	sectionsColor : ['#ff5f45', '#fff'],
 	paddingTop: '3em',
 	paddingBottom: '10px',
 	fixedElements: '#header, .footer',
