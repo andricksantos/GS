@@ -5,7 +5,7 @@ new fullpage('#fullpage', {
 	anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
 	navigation: true,
 	navigationPosition: 'right',
-	navigationTooltips: ['firstSlide', 'secondSlide'],
+	navigationTooltips: ['Inicio', ''],
 	showActiveTooltip: false,
 	slidesNavigation: true,
 	slidesNavPosition: 'bottom',
