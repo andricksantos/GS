@@ -501,7 +501,7 @@ body {
 
 .section-1-usedBy {
     background-image: url(https://alvarotrigo.com/fullPage/imgs/trusted-by.png);
-    width: 80%;
+    width: 100%;
     max-width: 536px;
     height: 36px;
     display: block;
@@ -688,12 +688,13 @@ body {
         max-width: 75%
     }
     #menu li a {
-        padding: 0 .7em .7em
+        padding: 0 .7em .7em;
     }
     #download,
     #menu-contact,
     .mobile-hide {
-        display: none!important
+        /*display: none!important;*/
+        display: block;
     }
     .shell-body {
         margin: 1.6em
@@ -840,8 +841,9 @@ screen and (max-height:500px) {
 }
 
 @media screen and (max-width:550px) {
+
     #section-1 h1 {
-        font-size: 6em
+        font-size: 2.5em
     }
     h1 {
         font-size: 5em
