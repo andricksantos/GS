@@ -1,3 +1,14 @@
+.mensajeintro {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto; }
 
+strong {
+  color: #cb6120; }
+
+.msjintro {
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+  margin: 0.5em; }
 
 /*# sourceMappingURL=main.css.map */
