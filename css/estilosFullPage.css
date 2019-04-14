@@ -464,7 +464,8 @@ body {
 }
 
 #section-1 {
-    background: #fdf5f3;
+    background: #3f3d3d;
+    background-image: url(../assets/img/patron.png)
 }
 
 #section-1 h1 {

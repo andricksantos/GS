@@ -46,8 +46,8 @@ new fullpage('#fullpage', {
 	//Diseno
 	controlArrows: true,
 	verticalCentered: true,
-	sectionsColor : ['#ff5f45', '#fff'],
-	paddingTop: '3em',
+	//sectionsColor : ['gray', '#ff5f45', '#fff'],
+	paddingTop: '1em',
 	paddingBottom: '10px',
 	fixedElements: '#header, .footer',
 	responsiveWidth: 0,
