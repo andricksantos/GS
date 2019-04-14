@@ -11,7 +11,9 @@
   width: 50%;
   margin: 0 auto; }
   .mensajeintro strong {
-    color: #b52344; }
+    color: #cb6120; }
+  .mensajeintro h4 {
+    font-weight: bolder; }
 
 .iconos {
   background: #b52344;
