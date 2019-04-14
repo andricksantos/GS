@@ -1,7 +1,8 @@
 .msjintro {
   font-weight: bolder;
   letter-spacing: 0.1em;
-  margin: 0.5em; }
+  margin: 1em;
+  text-transform: uppercase; }
 
 .mensajeintro {
   text-align: center;
@@ -12,7 +13,8 @@
 
 .iconos {
   background: #cb6120;
-  font-size: 30px;
-  padding: 10px; }
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 150px; }
 
 /*# sourceMappingURL=main.css.map */
