@@ -500,7 +500,7 @@ body {
 }
 
 .section-1-usedBy {
-    background-image: url(https://alvarotrigo.com/fullPage/imgs/trusted-by.png);
+    /*background-image: url(https://alvarotrigo.com/fullPage/imgs/trusted-by.png);*/
     width: 100%;
     max-width: 536px;
     height: 36px;
@@ -536,7 +536,7 @@ body {
     display: inline-block;
     margin: 0 17px 0 0;
     vertical-align: middle;
-    background-image: url(https://alvarotrigo.com/fullPage/imgs/flags.png)
+    /*background-image: url(https://alvarotrigo.com/fullPage/imgs/flags.png)*/
 }
 
 .flag-chinese {
