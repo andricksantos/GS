@@ -145,7 +145,7 @@
 	<script src="vendor/countdowntime/countdowntime.js"></script>
 
 	<script>
-		var end = new Date('05/22/2020 12:00 AM');
+		var end = new Date('03/22/2020 12:00 AM');
 		
 			var _second = 1000;
 			var _minute = _second * 60;
@@ -159,7 +159,10 @@
 				if (distance < 0) {
 		
 					clearInterval(timer);
-					document.getElementById('countdown4').innerHTML = 'EXPIRED!';
+					document.getElementById('countdown1').innerHTML = 'END!';
+					document.getElementById('countdown2').innerHTML = 'END!';
+					document.getElementById('countdown3').innerHTML = 'END!';
+					document.getElementById('countdown4').innerHTML = 'END!';
 		
 					return;
 				}
