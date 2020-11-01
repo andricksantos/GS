@@ -4,26 +4,28 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Garage Studio HN</title>
-
-    <!-- Primary Meta Tags -->
-    <meta name="title" content="Garage Studio HN">
-    <meta name="description" content="Somos una agencia de Marketing Digital e Inbound Marketing localizada en Honduras. Ingresa a nuestro sitio y descubre cómo podemos ayudarte.">
+	
+	<!-- Primary Meta Tags -->
+	<title>Garage Studio HN</title>
+	<meta name="title" content="Garage Studio HN">
+	<meta name="description" content="Somos una agencia de Marketing Digital e Inbound Marketing localizada en Honduras. Ingresa a nuestro sitio y descubre cómo podemos ayudarte.">
 	<meta name="keywords" content="Garage Studio HN, Garage Honduras, Garage Studio HN, Garage, Studio HN, honduras, San Pedro Sula, agencia de marketing, digital, comprometidos, objetivos, metas, emprender, estrategias digitales, proyectos web, redes Sociales, posicionamiento, contenidos de calidad, Inbound Marketing, marketing digital, comercialización, mercadeo, medios digitales, diseño, creatividad, rentabilidad, análisis, retorno de sus inversiones.  Nuestra Agencia cuenta con un equipo integral, compacto y especializado en marketing digital orientado a resultados, nuestros diseñadores gráficos, programadores webs, creativos, especialistas en publicidad digital, analistas, analytics, ejecutivos de cuentas, produccion, audiovisual, video, audio, radio, spot, documental, promocional, institucional, productora, ventas, ROI, SEO, productos, campañas, Social Media, microperforados, tazas, community manager, diseño gráfico">
 
 	<!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://garagestudiohn.com/">
-    <meta property="og:title" content="Garage Studio HN">
-    <meta property="og:description" content="Somos una agencia de Marketing Digital e Inbound Marketing localizada en Honduras. Ingresa a nuestro sitio y descubre cómo podemos ayudarte.">
-    <meta property="og:image" content="images/icons/LogoOficialGS.png">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://garagestudiohn.com/">
+	<meta property="og:title" content="Garage Studio HN">
+	<meta property="og:description" content="Somos una agencia de Marketing Digital e Inbound Marketing localizada en Honduras. Ingresa a nuestro sitio y descubre cómo podemos ayudarte.">
+	<meta property="og:image" content="images/logis.jpg">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://garagestudiohn.com/">
-    <meta property="twitter:title" content="Garage Studio HN">
-    <meta property="twitter:description" content="Somos una agencia de Marketing Digital e Inbound Marketing localizada en Honduras. Ingresa a nuestro sitio y descubre cómo podemos ayudarte.">
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://garagestudiohn.com/">
+	<meta property="twitter:title" content="Garage Studio HN">
+	<meta property="twitter:description" content="Somos una agencia de Marketing Digital e Inbound Marketing localizada en Honduras. Ingresa a nuestro sitio y descubre cómo podemos ayudarte.">
+	<meta property="twitter:image" content="images/logis.jpg">
 
+	<!-- Links -->
 	<link rel="icon" type="image/png" href="images/icons/GS.png"/>
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -48,7 +50,32 @@
 
 </head>
 <body>
-	
+	<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>
+	  window.fbAsyncInit = function() {
+		FB.init({
+		  xfbml            : true,
+		  version          : 'v8.0'
+		});
+	  };
+
+	  (function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<!-- Your Chat Plugin code -->
+	<div class="fb-customerchat"
+	  attribution=setup_tool
+	  page_id="1689264261364895"
+logged_in_greeting="Hola! Como podemos ayudarte?"
+logged_out_greeting="Hola! Como podemos ayudarte?">
+	</div>
+
 	<div class="size1 bg0 where1-parent">
 		<!-- Coutdown -->
 		<div class="flex-c-m bg-img1 size2 where1 overlay1 where2 respon2" style="background-image: url('images/b3.jpg');">
@@ -144,7 +171,7 @@
 	<script src="vendor/countdowntime/countdowntime.js"></script>
 
 	<script>
-		var end = new Date('07/13/2020 12:00 AM');
+		var end = new Date('12/30/2020 12:00 AM');
 		
 			var _second = 1000;
 			var _minute = _second * 60;
